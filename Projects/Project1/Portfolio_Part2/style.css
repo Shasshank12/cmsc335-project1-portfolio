@@ -1,0 +1,111 @@
+:root {
+    --page-text: black;
+    --panel-bg: white;
+    --accent: blue;
+    --row-alt: antiquewhite;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    font-family: "Work Sans", Arial, sans-serif;
+    color: var(--page-text);
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    font-family: "Work Sans", Arial, sans-serif;
+    color: var(--page-text);
+    background-image: url("profile.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+#page {
+    max-width: 50rem;
+    margin: 1.4rem auto;
+    padding: 1.4rem;
+    background-color: var(--panel-bg);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+header img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border: 0.21rem solid var(--accent);
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.35rem;
+}
+
+h2 {
+    color: var(--accent);
+    border-bottom: 0.07rem solid black;
+    padding-bottom: 0.35rem;
+    margin-top: 1.4rem;
+}
+
+#hosted-link {
+    font-weight: bold;
+}
+
+.about-text {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.7rem;
+}
+
+th,
+td {
+    border: 0.07rem solid black;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: var(--row-alt);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--row-alt);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-list li {
+    margin-bottom: 0.35rem;
+}
+
+a {
+    color: var(--accent);
+}
+
+#last-modified {
+    margin-top: 1.4rem;
+    font-size: 0.9rem;
+}
